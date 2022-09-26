@@ -1,0 +1,66 @@
+INFO:root:clientSocket.connect((simplesmtp.thought.net, 8025))
+INFO:root:220 bogus email service ready
+
+INFO:root:HELO Alice
+
+INFO:root:250 howdy!
+
+INFO:root:MAIL FROM:<test>
+
+INFO:root:250 ok, let's move on
+
+INFO:root:RCPT TO: <jasonwright>
+
+INFO:root:250 ok, let's move on
+
+INFO:root:DATA 
+
+INFO:root:354 give me the message (. by itself to end)
+
+INFO:root:Subject: Test <test>
+Date: Sun, 18 Sep 2022 13:16:01
+Message-ID: <test@test.net> 
+
+I am currently testing my smtp client.;
+INFO:root:
+.
+
+INFO:root:250 duly noted and ignored, thanks.
+
+INFO:root:QUIT 
+
+INFO:root:221 yeah, ok, buh bye.
+
+INFO:root:clientSocket.connect((simplesmtp.thought.net, 8025))
+INFO:root:220 bogus email service ready
+
+INFO:root:HELO Alice
+
+INFO:root:250 howdy!
+
+INFO:root:MAIL FROM:<test>
+
+INFO:root:250 ok, let's move on
+
+INFO:root:RCPT TO: <jasonwright>
+
+INFO:root:250 ok, let's move on
+
+INFO:root:DATA 
+
+INFO:root:354 give me the message (. by itself to end)
+
+INFO:root:Subject: Test <test>
+Date: Sun, 18 Sep 2022 13:16:01
+Message-ID: <test@test.net> 
+
+I am currently testing my smtp client.;
+INFO:root:
+.
+
+INFO:root:250 duly noted and ignored, thanks.
+
+INFO:root:QUIT 
+
+INFO:root:221 yeah, ok, buh bye.
+
